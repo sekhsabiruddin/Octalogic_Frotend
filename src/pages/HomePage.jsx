@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
-import RightSideBar from "../components/RightSideBar"; // Assuming Index is correctly imported as RightSideBar
+import RightSideBar from "../components/RightSideBar";
 import Course from "../components/Courses/Course";
 
 const HomePage = () => {

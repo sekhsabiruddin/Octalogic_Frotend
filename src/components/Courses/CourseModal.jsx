@@ -49,7 +49,7 @@ const CourseModal = ({ setOpen }) => {
 
   // Handle cancel button click
   const handleCancel = () => {
-    setOpen(false); // Close the modal
+    setOpen(false);
   };
 
   return (

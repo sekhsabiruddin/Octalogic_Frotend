@@ -1,8 +1,6 @@
-// data.js
-
 const data = [
   {
-    id: 1, // Generate a unique ID
+    id: 1,
     name: "Guitar",
     desc: "Guitar class for beginners.",
     instructor: "Ms. Jane Doe",
@@ -69,5 +67,4 @@ const data = [
   },
 ];
 
-// Exporting the data array
 export default data;

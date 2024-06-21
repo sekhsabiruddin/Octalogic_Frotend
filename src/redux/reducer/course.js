@@ -27,7 +27,6 @@ const dataSlice = createSlice({
       state.data.push(action.payload);
     },
     closeCourse(state, action) {
-      debugger;
       const courseId = action.payload;
       const updatedData = state.data.map((course) =>
         course.id === courseId ? { ...course, status: "Closed" } : course
